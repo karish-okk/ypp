@@ -1,0 +1,71 @@
+.services__header {
+    display: flex;
+}
+
+.services__header-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 55px;
+
+    font-size: 20px;
+}
+
+#services-hair{
+    background-color: #A7876F;
+    color: #EFEDEB;
+    border-radius: 5px 0 0 5px;
+}
+
+#services-nail {
+    background-color: #a7876f00;
+}
+
+#services-make-up {
+    background-color: #a7876f00;
+}
+
+#services-kombo {
+    background-color: #a7876f00;
+    border-radius: 0 5px 5px 0;
+}
+
+.services__title {
+    font-size: 20px;
+
+    margin-bottom: 30px;
+
+    position: relative;
+}
+
+
+.services__title:after {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 1px;
+
+    background-color: #1C1917;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+
+.services__object {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services__object-name {
+    font-family: 'Roboto', sans-serif;
+    flex: auto;
+}
+
+.services__object-price {
+    margin-right: 50px;
+}

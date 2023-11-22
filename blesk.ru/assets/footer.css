@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.footer__links {
+    flex: 30%;
+    display: flex;
+}
+
+.footer__links-column {
+    margin-right: 130px;
+}
+
+.footer__links-column p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: -3px;
+    margin-bottom: -4px;
+}
+
+.footer__brown {
+    color: #A7876F;
+}
+
+.footer__contacts a{
+    font-family: 'Roboto', sans-serif;
+    color: #A7876F;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
