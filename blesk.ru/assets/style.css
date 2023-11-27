@@ -27,10 +27,15 @@ a {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 p {
     font-size: 30px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .text {
@@ -39,7 +44,7 @@ p {
 }
 
 .registration {
-    margin: 40px 0;
+    margin: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,17 +104,19 @@ p {
     margin: 20px;
     position: relative;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .intro2__ico {
-    flex: 10%;
+    flex: 40%;
     position: absolute;
     top: 0;
     left: 0;
 }
 
 .intro2__text {
-    flex: auto;
+    flex: 60%;
     width: 350px;
 }
 
@@ -181,8 +188,8 @@ p {
     display: grid;
     gap: 20px;
     grid-template-areas: 
-    "A A A  A A A  A A A  A A A  A A A  A A A  A A A"
-    "B C C  C C C  C C C  C C C  C C C  C C C  C C C";
+    "A A A A  A A A A  A A A A  A A A A"
+    "B C C C  C C C C  C C C C  C C C C";
 }
 
 .intro4__img1 {

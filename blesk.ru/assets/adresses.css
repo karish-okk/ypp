@@ -1,0 +1,14 @@
+.adresses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adresses__column {
+    width: 40%;
+
+    font-size: 15px;
+}
+
+.adresses__column a{
+    font-family: 'Roboto', sans-serif;
+}
