@@ -38,6 +38,10 @@ img {
     max-width: 100%;
 }
 
+button {
+    cursor: pointer;
+}
+
 .text {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -99,25 +103,22 @@ img {
     align-items: center;
 }
 
-.intro2__content-object {
-    flex: 1 1 0;
+.intro2__content_object {
     margin: 20px;
-    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
 
 .intro2__ico {
-    flex: 40%;
-    position: absolute;
-    top: 0;
-    left: 0;
+
 }
 
 .intro2__text {
-    flex: 60%;
-    width: 350px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+
+    margin-left: 10px;
 }
 
 

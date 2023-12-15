@@ -8,7 +8,8 @@
 
     <!-- Шапка -->
     <?php require_once "bloks/header.php" ?>
-    
+
+
     <div class="container">
         <br>
         <p>Наши салоны</p>
@@ -54,5 +55,8 @@
     
     <!-- Подвал -->
     <?php require_once "bloks/footer.php" ?>
+
+    <script defer src="scripts/popup.js"></script>
+    <script defer src="scripts/login.js" ></script>
 </body>
 </html>

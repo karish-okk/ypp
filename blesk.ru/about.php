@@ -62,5 +62,7 @@
 
     <!-- Подвал -->
     <?php require_once "bloks/footer.php" ?>
+
+    <script defer src="scripts/popup.js"></script>
 </body>
 </html>

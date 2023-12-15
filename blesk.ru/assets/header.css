@@ -4,9 +4,10 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 1;
 
     color: #EFEDEB;
+    background: none;
 }
 
 .header-main__inner {
@@ -61,6 +62,7 @@
 }
 
 .header-main__contacts {
+    display: flex;
     align-items: center;
 }
 
@@ -69,6 +71,9 @@
     color: #EFEDEB;
 }
 
+.contacts__logo {
+    margin-left: 15px;
+}
 
 
 
@@ -79,6 +84,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 
     height: 50px;
     background: #fff;
@@ -135,11 +141,13 @@
     opacity: 1;
 }
 
-.header__contacts {
+.contacts {
+    display: flex;
     align-items: center;
 }
 
-.header__contacts a {
+.contacts a {
     text-decoration: none;
     color: #1C1917;
 }
+
