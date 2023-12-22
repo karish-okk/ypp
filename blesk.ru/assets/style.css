@@ -69,7 +69,7 @@ button {
     outline: #A7876F 1px solid;
     outline-offset: 4px;
 
-
+    cursor: pointer;
 }
 
 

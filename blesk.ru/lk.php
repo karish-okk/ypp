@@ -92,6 +92,9 @@
         </div>
     </div>
 
+    <div class="registration">
+            <div class="registration__button">Записаться еще!</div>
+        </div>
 
 
     <!-- Подвал -->
