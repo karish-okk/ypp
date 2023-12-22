@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/adresses.css">
     <link rel="stylesheet" href="assets/pop_up.css">
     <link rel="stylesheet" href="assets/popup1.css">
+    <link rel="stylesheet" href="assets/lk.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Tenor+Sans&display=swap" rel="stylesheet">

@@ -1,13 +1,13 @@
 .header-main {
     padding-top: 5px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
 
     color: #EFEDEB;
-    background: none;
+    background: transparent;
 }
 
 .header-main__inner {

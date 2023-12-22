@@ -13,6 +13,8 @@
 
 
     <!-- Основной блок -->
+    <!-- это нужно реализовать с помощью цикла while при выводе данных из бд -->
+    <!-- А то пока что это копипаст сплошной -->
     <div class="container">
         <div class="services__header">
             <div id="services-hair" class="services__header-block">
@@ -113,7 +115,7 @@
     <?php require_once "bloks/footer.php" ?>
 
     <script defer src="scripts/popup.js"></script>
-    <script defer src="scripts/login.js" ></script>
+    <script defer src="scripts/login.js"></script>
     
 </body>
 </html>

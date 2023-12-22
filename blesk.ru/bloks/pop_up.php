@@ -67,3 +67,6 @@
         </div>
     </div>
 </div>
+
+<script defer src="scripts/popup.js"></script>
+<script defer src="scripts/login.js"></script>

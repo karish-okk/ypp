@@ -4,10 +4,16 @@
     <?php $title = "Блеск - Салон красоты";
         require_once "bloks/head.php"?>
 </head>
+
+<style>
+    .container {
+        margin-bottom: 0;
+    }
+</style>
 <body>
 
     <!-- Шапка -->
-    <header class="header-main">
+    <header class="header-main" >
         <div class="container">
             <div class="header-main__inner">
                 <div class="header-main__logo">Блеск</div>
